@@ -11,13 +11,14 @@ Foi utilizado framework Bootstrap para o front end junto com PHP para o Back-end
 
 # Perfil Profissonal da equipe
 
+
 # Nome: Janatâ Aruanda 
 # Formação Acadêmica: Cursando Graduação
 # Experiência: Analista de dados e Engenheiro de dados
 # Papel no projeto: Scrum Master/ Back end / DBA
 --------------------------------------------------------
 # Nome: Jared Ricioli 
-# Formação Acadêmica**: Cursando Graduação
+# Formação Acadêmica: Cursando Graduação
 # Experiência: Desenvolvedor Full Stack
 # Papel no projeto: PO/Desenvolvedor Full Stack
 --------------------------------------------------------
@@ -27,8 +28,7 @@ Foi utilizado framework Bootstrap para o front end junto com PHP para o Back-end
 # Papel no projeto: Desenvolvedor Front end
 --------------------------------------------------------
 
-Anexado a documentação do projeto
-
+Documetação do projeto
 
 # [Donation (3).pdf](https://github.com/miruan18/projeto_Site/files/11488380/Donation.3.pdf)
 
