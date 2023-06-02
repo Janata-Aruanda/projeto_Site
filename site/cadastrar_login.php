@@ -34,7 +34,7 @@
 							<div class="g-recaptcha" data-sitekey="6LfqXQ0iAAAAACNc25y4g73cvpq7KcEmiPYbjtUz">
 							</div>
 							<br>
-							<button type="submit" name="Enviar" style="background-color: #e9e9ff" class="btn btn-info"
+							<button type="submit" name="Enviar" class="btn btn-success"
 								onclick="return valida()">Enviar</button>
 							<a href="index.php"><button type='button' style="background-color: #e9e9ff"
 									class="btn btn-info">Voltar</button> </a>

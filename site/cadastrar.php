@@ -17,23 +17,23 @@
         <form action="salvar.php" method="POST">
 	         <input type="hidden" name="acao" value="cadastrar">
 	      <div class="mb-3">
-		    
 		    <input type="text" name="nome" placeholder="Nome" class="form-control">
 	      </div>
+
 	      <div class="mb-3">
-			
 			<input type="email" name="email" placeholder="E-mail" class="form-control">
 	      </div>
+
 	      <div class="mb-3">
-			
 			<input type="text" name="telefone" placeholder="telefone" class="form-control">
 	      </div>
+		  
 		  <div class="mb-3">
 			<select name="tipo" placeholder="Tipo" class="form-control">
 				<option>-Escolha o item-</option>
-				<option value="1">Roupas</option>
-				<option value="2">Cobertores/Agasalhos</option>
-				<option value="3">Cobertores/Agasalhos e Roupas</option>
+				<option value="Roupa">Roupas</option>
+				<option value="Cobertores/Agasalhos">Cobertores/Agasalhos</option>
+				<option value="Aliementos">Alimentos</option>
 			</select>
 	      </div>
 	      <div class="mb-3">
@@ -53,8 +53,7 @@
 					class="g-recaptcha" data-sitekey="6LfqXQ0iAAAAACNc25y4g73cvpq7KcEmiPYbjtUz">
 				</div>
 				   <br>
-					<button type="submit"  name="Enviar" style="background-color: #e9e9ff" class="btn btn-info" onclick="return valida()" >Enviar</button>
-								
+				   <a href="?inicio.php"><button  type='button' class="btn btn-success"  onclick="return valida()"> Enviar</button> </a>	
 			<script type="text/javascript">
 					function valida(){
 						if (grecaptcha.getResponse()=="") {
@@ -62,8 +61,6 @@
 								return false;
 						}
 					}
-			</script>
-
 			<?php 
 			    if (isset($_POST['Enviar'])){
 							     	

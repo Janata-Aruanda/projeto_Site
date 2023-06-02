@@ -12,7 +12,7 @@
   <div class="col-md-5 offset-md-3 mt-5">
    <div class="bg-transparent">
 	<div class="card-body">
-	 <center><h5 class="card-title">Recurperar Senha</h5></center>
+	 <center><h5 class="card-title">Recuperar Senha</h5></center>
 	 <br>
        <form action="recup.php" method="POST">
         <div class="mb-3">
@@ -28,7 +28,7 @@
 				 class="g-recaptcha" data-sitekey="6LfqXQ0iAAAAACNc25y4g73cvpq7KcEmiPYbjtUz">
 				</div>
 				<br>
-				<button type="submit"  name="Enviar" style="background-color: #e9e9ff" class="btn btn-info" onclick="return valida()" >Enviar</button>
+				<button type="submit"  name="Enviar"  class="btn btn-success" onclick="return valida()" >Enviar</button>
 				<button type="submit"  name="Enviar" style="background-color: #e9e9ff" class="btn btn-info" >Voltar</button>		
 				<script type="text/javascript">
 						function valida(){

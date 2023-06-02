@@ -15,17 +15,17 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<script src="https://kit.fontawesome.com/aa9f4da7e4.js" crossorigin="anonymous"></script>
 </head>
-<body style="font-family: 'Julius Sans One', sans-serif;color:#ffff;background-image: url('img/1.jpg');background-position: center center;background-size: cover;background-attachment: fixed;height:auto;width: 100%">
-	<nav class="navbar navbar-expand-lg " style="background-color: #70d0f1;">
+<body style="font-family: 'Julius Sans One', sans-serif;color:#ffff;background-image: url('img/deo.jpg');background-position: center center;background-size: cover;background-attachment: fixed;height:auto;width: 100%">
+	<nav class="navbar navbar-expand-lg " style="background-color: #9ca8ad;">
 	  <div class="container-fluid">
-	    <a class="navbar-brand" href="index2.php"><i class="bi bi-balloon-heart-fill"></i>Donation</a>
+	    <a class="navbar-brand" href="#"><img src="img/Donation.jpg" alt='logo' style="width:50px;"></a>
 	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
 	    <div class="collapse navbar-collapse" id="navbarNav">
 	      <ul class="navbar-nav">
 	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href=" index2.php"><i class="fa-solid fa-house" style='color: white'></i>Home</a>
+	          <a class="nav-link active" aria-current="navbarNav" href="?page=inicio"><i class="fa-solid fa-house" style='color: white'></i>Home </a>
 	        </li>
 			<li class="nav-item">
 	          <a class="nav-link" href="?page=listar"><i class="fa-solid fa-location-pin" style='color: white'></i></i>Locais</a>
@@ -52,6 +52,9 @@
 
 					//include das páginas
 					switch (@$_REQUEST['page']) {
+						case 'inicio':
+							include('inicio.php');
+							break;
 						case 'cadastrar':
 							include('cadastrar.php');
 							break;
@@ -68,9 +71,10 @@
 							include('recupSenha.php');
 							break;							
 						default:
-							print "<h1><p style='font-size:1.4em'></p>Bem-vindo ao <b>Donation!</b></h1>";
+							print "<h1><p style='font-size:1.4em'></p>Bem-vindo ao <b>Helping Hands!</b></h1>";
 					}
-				?>
+				?>				
+
 			</div>
 		</div>
 	</div>

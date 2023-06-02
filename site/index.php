@@ -32,7 +32,11 @@
 								class="g-recaptcha" data-sitekey="6LfqXQ0iAAAAACNc25y4g73cvpq7KcEmiPYbjtUz">
 							</div>
 							<br>
-							<button type="submit"  name="Acessar" style="background-color: #e9e9ff" class="btn btn-info" onclick="return valida()" >Acessar</button>
+							<button type="submit"  name="Acessar" class="btn btn-success" onclick="return valida()" >Acessar</button>
+							<a style="background-color: #e9e9ff"class="btn btn-info" href="cadastrar_login.php" role="button">Cadastrar</a>
+							<br/>
+							<a style="background-color: #e9e9ff" href="esqueciMinhaSenha.php">Esquecei a senha</a>
+							
 							<script type="text/javascript">
 								function valida(){
 									if (grecaptcha.getResponse()=="") {
@@ -65,16 +69,6 @@
 							 <!--fim recaptcha -->
 
 						</form>
-						<br>
-						<a 
-						href="esqueciMinhaSenha.php"
-						style="color: black"
-						>Esquecei a senha</a><br>
-						<br>
-						<a 
-						href="cadastrar_login.php"
-						style="color: black"
-						>Cadastrar</a><br>
 					</div>
 				</div>
 			</div>
@@ -82,8 +76,8 @@
 	</div>
 	<script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
 	<div class="position-absolute bottom-0 end -0"> 
-	<p class="fw-bolder">Foi feito pelo</p> 
-	<p class="fw-bolder">Equipe de Desenvolvimento</a></p>
+	<p>Foi feito pelo</p> 
+	<p>Equipe de Desenvolvimento</p>
 	</div>
 </body>
 </html>

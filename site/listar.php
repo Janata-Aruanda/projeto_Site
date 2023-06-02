@@ -7,7 +7,7 @@
 
 	if($qtd > 0){
 		print "<p>Encontrou <b>$qtd</b> resultado(s)</p>";
-		print "<table style='background-color:#3d41428f;color:white'class='table '>";
+		print "<table style='background-color:#3d41428f;color:white'class='table'>";
 		print "<tr>";
 		print "<th>Cidade</th>";
 		print "<th>Bairro</th>";
